@@ -110,4 +110,4 @@ summary: tidb_external_ts` 変数を使用して履歴データを読み取る�
     3 rows in set (0.00 sec)
     ```
 
-    新しい行が挿入される前にタイムスタンプに`tidb_external_ts`設定されるため、 `tidb_enable_external_ts_read`有効になった後は新しく挿入された行は返されません。
+    新しい行が挿入される前にタイムスタンプに`tidb_external_ts`が設定されるため、 `tidb_enable_external_ts_read`有効になった後は新しく挿入された行は返されません。
